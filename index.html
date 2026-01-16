@@ -19,18 +19,23 @@
 <body>
     <div class="container-xs">
         <!-- TODO: read the article and do it the other way that doesn't use "onclick" in the HTML file -->
-        <h1 class="title my-3 fw-bold" onclick="move()">
+        <h1 class="title my-3 fw-bold">
             <img src="images/chii.png" class="chii" alt="chiikawa">Welcome to Howie's website
         </h1>
         <!-- <button onclick="changeColor('blue')">Blue</button>
         <button onclick="changeColor('green')">Green</button>
         <button onclick="changeColor('orangered')">Orange</button> -->
-
         <div>
-            <p class="name-2">freeCodeCamp</p>
-            <button onclick="change()">Change</button>
-            <p id="my-paragraph">my-paragraph</p>
+            <!-- <p class="name">freeCodeCamp</p>
+                <button>Change Color</button> -->
         </div>
+        <h2 id="secondarytitle">Test Info</h2>
+        <div>
+            <button class="btn" onclick="change()">Change Title</button>
+            <button class="btn knock">knock</button>
+            <button id="" class="btn">Listener</button>
+        </div>
+        <h3 class="my-3 fw-bold">To Professor</h3>
         <p class="p-block">Hello, Professor Marc.<br />
             I apologize for not noticing the Introduction assignment. I recall checking the course site last week and
             did not see it at that time. If I submit my response here, would you be willing to consider granting partial
@@ -57,7 +62,7 @@
             <h4 class="fw-bold">Q3.What have you created using code?</h4>
             <p>A3.During my time at my previous company, I completed 130+ layout implementation projects, working with
                 clients ranging from airlines and government agencies to universities and museums.</p>
-            <span>Primary portfolio: <a href="https://iamhooowie.com/" target="_blank">Link</a></span><br/>
+            <span>Primary portfolio: <a href="https://iamhooowie.com/" target="_blank">Link</a></span><br />
             <span>Secondary portfolio: <a href="https://dribbble.com/iamhooowie" target="_blank">Link</a></span>
         </div>
 
@@ -167,7 +172,8 @@
                     <div class="albuminn-item">
                         <a class="" href="images/007.jpg" data-lightbox="example-set"
                             data-title="Relaxing time with old firend who is marry to Japan"><img class="example-image"
-                                src="images/007.jpg" alt="Relaxing time with old firend who is marry to Japan" /><span></span></a>
+                                src="images/007.jpg"
+                                alt="Relaxing time with old firend who is marry to Japan" /><span></span></a>
                     </div>
                 </div>
 
@@ -175,7 +181,8 @@
                     <div class="albuminn-item">
                         <a class="" href="images/008.jpg" data-lightbox="example-set"
                             data-title="21st Century Museum of Contemporary Art, Kanazawa."><img class="example-image"
-                                src="images/008.jpg" alt="21st Century Museum of Contemporary Art, Kanazawa." /><span></span></a>
+                                src="images/008.jpg"
+                                alt="21st Century Museum of Contemporary Art, Kanazawa." /><span></span></a>
                     </div>
                 </div>
 
@@ -187,12 +194,13 @@
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- JS -->
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/script.js"></script><!-- TODO: fix the invalid HTML here -->
-        <!-- lightbox -->
-        <script src="js/lightbox-plus-jquery.min.js"></script>
+    <!-- JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script><!-- TODO: fix the invalid HTML here -->
+    <!-- lightbox -->
+    <script src="js/lightbox-plus-jquery.min.js"></script>
 </body>
 
 </html>

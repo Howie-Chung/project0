@@ -77,12 +77,35 @@ li {
     line-height: 33px;
 }
 
-span{
+span {
     font-size: 1.6rem;
 }
 
 img {
     width: 100%;
+}
+
+.btn {
+    border: none;
+    padding: 1rem 1.5rem;
+    background: var(--primary-color);
+    color: #fff;
+    transition: 0.3s ease all;
+    font-size: 1.4rem;
+    border-radius: 99px;
+}
+
+.btn:hover {
+    border: none;
+    padding: 1rem 1.5rem;
+    background: var(--three-color);
+    color: #fff;
+}
+
+.btn:focus,
+.btn:active {
+    background: var(--three-color)!important;
+    color: #fff;
 }
 
 .container-l {
@@ -107,6 +130,22 @@ img {
     width: 800px;
     max-width: 800px;
     margin: 0 auto;
+}
+
+/* ========== Color ========== */
+:root {
+    --primary-color: #5394D2;
+    --secondary-color: #C1C1C1;
+    --three-color: #243F6B;
+    --four-color: #ddd;
+    --five-color: #fff;
+    --six-color: #;
+    --seven-color: #;
+    --eight-color: #;
+    --nine-color: #;
+    --ten-color: #;
+    --font-color: #;
+    --border-color: #;
 }
 
 .title {
