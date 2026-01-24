@@ -7,13 +7,11 @@
 // ⭐ let = I can change stuff. It is different from const.
 // ⭐ const = I CANNOT change String. It is different from let Unless Array, Object.
 // ⭐ "use strict"; → Strict mood. If I have some bugs, system will tell me.
-// ⭐ Static box = const 
-// ⭐ Transform = let
 // ⭐ Use ID to find = document.getElementById()
 // ⭐ Use class to find = document.getElementsByClassName()
 // ⭐ Use ID, class, label to find. More efficient = getquerySelector()
 // ⭐ document.getElementById("call")           // No point
-// ⭐ document.getElementsByClassName("btn")    // No point. BTW, 
+// ⭐ document.getElementsByClassName("btn")    // No point
 // ⭐ getElementsByClassName(), document.getElementsByTagName() and querySelectorAll()  // Using them, should add [number]
 // ⭐ document.querySelector("#call")    // ID should add point
 // ⭐ document.querySelector(".btn")     // Class should add point
@@ -158,6 +156,7 @@ function kokoko() {
 }
 box.addEventListener("click", kokoko);
 
+
 // Example
 // const name = document.querySelector(".name")
 // const btn = document.querySelector("button")
@@ -172,3 +171,5 @@ box.addEventListener("click", kokoko);
 // function changeColor(){
 //     name.style.color = "Red";
 // }
+
+//* Class-3 *//
